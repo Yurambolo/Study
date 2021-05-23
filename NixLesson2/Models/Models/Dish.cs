@@ -11,6 +11,6 @@ namespace Models
         private string _name;
         private float _wegiht;
         private float _cost;
-        private string _category;
+        private List<Category> _categories;
     }
 }

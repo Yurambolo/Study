@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Models
 {
-    public class Restaurant
+    public class Session
     {
-        private Menu _menu;
-        private List<Table> _tables;
+        private int _restaurant;
 
-        public List<Reservation> Reservations
+        public int CurrentUser
         {
             get => default;
             set
@@ -16,17 +16,17 @@ namespace Models
             }
         }
 
-        public void PrintMenu()
+        public Visitor Register()
         {
             throw new System.NotImplementedException();
         }
 
-        public Table FindTable()
+        public Visitor SignIn()
         {
             throw new System.NotImplementedException();
         }
 
-        public void OptimizeReservations()
+        public void MakeReservation()
         {
             throw new System.NotImplementedException();
         }

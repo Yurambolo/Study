@@ -7,5 +7,10 @@ namespace Models
     public class Menu
     {
         private System.Collections.Generic.List<Models.Dish> _dishes;
+
+        public List<Dish> GetDishes()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -42,23 +42,7 @@ namespace Models
             }
         }
 
-        public List<Dish> PreOrder
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public List<Dish> Order
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int TotalCost
+        public Order PreOrder
         {
             get => default;
             set

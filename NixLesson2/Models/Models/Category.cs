@@ -4,10 +4,9 @@ using System.Text;
 
 namespace Models
 {
-    public class DishCategory
+    public class Category
     {
-        private int _id;
         private string _name;
-        private List<Dish> _dishes;
+        private int _id;
     }
 }
