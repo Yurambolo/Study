@@ -4,8 +4,16 @@ using System.Text;
 
 namespace Models
 {
-    public abstract class Dish
+    public abstract class Ingredient
     {
+        public string Name
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public int Weight
         {
             get => default;
@@ -14,9 +22,7 @@ namespace Models
             }
         }
 
-        public abstract int Cost { get;}
-
-        public int Name
+        public int Cost
         {
             get => default;
             set
