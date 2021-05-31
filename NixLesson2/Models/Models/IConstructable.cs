@@ -6,6 +6,8 @@ namespace Models
 {
     public interface IConstructable
     {
-        int Cost { get; }
+        void AddIngridient(Ingredient ingredient);
+        bool RemoveIngridient(Ingredient ingredient);
+        bool ChangeBase(Ingredient ingredient);
     }
 }

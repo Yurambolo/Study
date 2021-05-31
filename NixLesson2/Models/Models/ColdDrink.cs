@@ -4,11 +4,19 @@ using System.Text;
 
 namespace Models
 {
-    public class ColdDrink : Dish
+    public class ColdDrink : Dish, IPreSet
     {
-        public override int Cost
+        public ColdDrink(string name, int weight, int cost, string description, bool hasIce)
         {
-            get => default;
+            Name = name;
+            Weight = weight;
+            Cost = cost;
+            Description = description;
+            HasIce = hasIce;
         }
+
+        public string Description { get; }
+
+        public bool HasIce { get; set; }
     }
 }

@@ -6,22 +6,10 @@ namespace Models
 {
     public abstract class Dish
     {
-        public int Weight
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public virtual int Weight { get; set; }
 
-        public abstract int Cost { get;}
+        public virtual int Cost { get; set; }
 
-        public int Name
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public string Name { get; set; }
     }
 }

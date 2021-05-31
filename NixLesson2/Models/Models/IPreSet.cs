@@ -6,7 +6,6 @@ namespace Models
 {
     public interface IPreSet
     {
-        int Name { get; set; }
-        int Description { get; set; }
+        string Description { get; }
     }
 }

@@ -36,7 +36,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Models.OrderItem">
-    <Position X="4" Y="3.75" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>OrderItem.cs</FileName>
@@ -64,9 +64,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Models.Ingredient">
-    <Position X="4" Y="5.5" Width="1.5" />
+    <Position X="4" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAABQAACAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>Ingredient.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -106,7 +106,7 @@
     <Position X="1.25" Y="9" Width="1.5" />
     <InheritanceLine Type="Models.Ingredient" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="6.988" />
+        <Point X="4.75" Y="7.132" />
         <Point X="4.75" Y="7.375" />
         <Point X="2.125" Y="7.375" />
         <Point X="2.125" Y="9" />
@@ -121,7 +121,7 @@
     <Position X="3.25" Y="9" Width="1.5" />
     <InheritanceLine Type="Models.Ingredient" ManuallyRouted="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="6.988" />
+        <Point X="4.75" Y="7.132" />
         <Point X="4.75" Y="7.375" />
         <Point X="3.938" Y="7.375" />
         <Point X="3.938" Y="9" />
@@ -136,7 +136,7 @@
     <Position X="5" Y="9" Width="1.5" />
     <InheritanceLine Type="Models.Ingredient" ManuallyRouted="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="6.988" />
+        <Point X="4.75" Y="7.132" />
         <Point X="4.75" Y="7.388" />
         <Point X="5.625" Y="7.388" />
         <Point X="5.625" Y="9" />
@@ -158,7 +158,7 @@
     <Position X="6.75" Y="9" Width="1.5" />
     <InheritanceLine Type="Models.Ingredient" ManuallyRouted="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="6.988" />
+        <Point X="4.75" Y="7.132" />
         <Point X="4.75" Y="7.388" />
         <Point X="7.375" Y="7.388" />
         <Point X="7.375" Y="9" />
@@ -170,9 +170,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Models.Wok">
-    <Position X="11.5" Y="8.5" Width="1.5" />
+    <Position X="12" Y="8.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAAAIAAAAAAABAAAAAABBAAAAAAAAAAQAA=</HashCode>
+      <HashCode>AAACQAAAQAAAAIAEAAAAABAAACAABBAAAAAAAAAAQAA=</HashCode>
       <FileName>Wok.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -180,7 +180,7 @@
   <Class Name="Models.Poke">
     <Position X="14" Y="8.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACQAAAQAAAAIAEAAAAABAAACAABBAAAAAAAAAAQAA=</HashCode>
       <FileName>Poke.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -202,21 +202,30 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Models.HotDrink">
-    <Position X="13.25" Y="9.75" Width="1.5" />
+    <Position X="13" Y="12" Width="1.5" />
+    <InheritanceLine Type="Models.Dish" ManuallyRouted="true">
+      <Path>
+        <Point X="15.75" Y="7.238" />
+        <Point X="15.75" Y="8.117" />
+        <Point X="13.75" Y="8.117" />
+        <Point X="13.75" Y="12" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HotDrink.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Models.ColdDrink">
-    <Position X="15" Y="9.75" Width="1.5" />
+    <Position X="15" Y="10.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>ColdDrink.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Models.Desert">
-    <Position X="16.75" Y="9.75" Width="1.5" />
+    <Position X="16.75" Y="10.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Desert.cs</FileName>
@@ -229,17 +238,25 @@
       <FileName>Dish.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Models.IPreSet">
-    <Position X="13.75" Y="4.25" Width="1.5" />
+  <Class Name="Models.IngredientList">
+    <Position X="9.5" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEMAAEAAIAAAABAQCAAABAQAAAAICAAECACAAAJQIAQ=</HashCode>
+      <FileName>IngredientList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Models.IPreSet">
+    <Position X="13.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IPreSet.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Models.IConstructable">
-    <Position X="15.5" Y="4.25" Width="1.5" />
+    <Position X="15.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IConstructable.cs</FileName>
     </TypeIdentifier>
   </Interface>

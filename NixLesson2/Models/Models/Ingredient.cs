@@ -29,5 +29,13 @@ namespace Models
             {
             }
         }
+        public override bool Equals(object obj) => this.Equals(obj as Ingredient);
+
+        public bool Equals(Ingredient i)
+        {
+            return Name == i.Name;
+        }
+
+        public override int GetHashCode() => (Name, Weight, Cost).GetHashCode();
     }
 }
