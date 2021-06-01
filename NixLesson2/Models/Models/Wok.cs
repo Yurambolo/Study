@@ -6,16 +6,13 @@ namespace Models
 {
     public class Wok : Dish, IConstructable
     {
-        public Wok()
+        public Wok() : base("Wok", 0, 0)
         {
-            Name = "Wok";
-            Base = new WokBase();
             Fillers = new IngredientList(3, 7, new List<Type> { Type.GetType("WokFiller")});
             Proteins = new IngredientList(0, 3, new List<Type> { Type.GetType("Protein") });
             Sauses = new IngredientList(1, 2, new List<Type> { Type.GetType("Sause") });
             Toppings = new IngredientList(0, 2, new List<Type> { Type.GetType("Topping") });
         }
-
         public WokBase Base { get; set; }
 
         public IngredientList Fillers { get; }
@@ -31,7 +28,8 @@ namespace Models
             get
             {
                 int sum = 0;
-                sum += Base.Cost;
+                if (Base != null)
+                    sum += Base.Cost;
                 foreach (WokFiller filler in Fillers)
                     sum += filler.Cost;
                 foreach (Protein protein in Proteins)
@@ -49,7 +47,8 @@ namespace Models
             get
             {
                 int sum = 0;
-                sum += Base.Cost;
+                if (Base != null)
+                    sum += Base.Cost;
                 foreach (WokFiller filler in Fillers)
                     sum += filler.Cost;
                 foreach (Protein protein in Proteins)

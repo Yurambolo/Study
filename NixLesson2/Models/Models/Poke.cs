@@ -6,9 +6,8 @@ namespace Models
 {
     public class Poke : Dish, IConstructable
     {
-        public Poke()
+        public Poke() : base("Poke", 0, 0)
         {
-            Name = "Poke";
             Base = new WokBase();
             Fillers = new IngredientList(3, 7, new List<Type> { Type.GetType("WokFiller") });
             Proteins = new IngredientList(0, 2, new List<Type> { Type.GetType("Protein") });
@@ -31,7 +30,8 @@ namespace Models
             get
             {
                 int sum = 0;
-                sum += Base.Cost;
+                if (Base != null)
+                    sum += Base.Cost;
                 foreach (WokFiller filler in Fillers)
                     sum += filler.Cost;
                 foreach (Protein protein in Proteins)
@@ -49,7 +49,8 @@ namespace Models
             get
             {
                 int sum = 0;
-                sum += Base.Cost;
+                if (Base != null)
+                    sum += Base.Cost;
                 foreach (WokFiller filler in Fillers)
                     sum += filler.Cost;
                 foreach (Protein protein in Proteins)

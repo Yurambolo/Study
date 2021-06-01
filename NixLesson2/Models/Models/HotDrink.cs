@@ -4,11 +4,13 @@ using System.Text;
 
 namespace Models
 {
-    public class HotDrink : Dish
+    public class HotDrink : Dish, IPreSet
     {
-        public override int Cost
+        public HotDrink(string name, int weight, int cost, string description) : base(name, cost, weight)
         {
-            get => default;
+            Description = description;
         }
+
+        public string Description { get; }
     }
 }

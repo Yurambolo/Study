@@ -6,11 +6,8 @@ namespace Models
 {
     public class ColdDrink : Dish, IPreSet
     {
-        public ColdDrink(string name, int weight, int cost, string description, bool hasIce)
+        public ColdDrink(string name, int weight, int cost, string description, bool hasIce) : base(name, cost, weight) 
         {
-            Name = name;
-            Weight = weight;
-            Cost = cost;
             Description = description;
             HasIce = hasIce;
         }
