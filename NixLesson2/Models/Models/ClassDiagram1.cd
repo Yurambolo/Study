@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Models.ColdDrink">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\ColdDrink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Desert">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\Desert.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Dish">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\Dish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.HotDrink">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\HotDrink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Ingredient">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAABQAACAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\Ingredient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.IngredientList" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEMAAEAAIAAAABAQCAAABAQAAAAICAAECACQAAJQIAQ=</HashCode>
+      <FileName>Models\Ingredients\IngredientList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Menu">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Restaurant\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Order">
+    <Position X="54.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Orders\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.OrderItem">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Orders\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Poke">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAQAAAAIAEAAAAABAAACAABBAAAAAAAAAAQAA=</HashCode>
+      <FileName>Models\Dishes\Poke.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.PokePreSet">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\PokePreSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Protein">
+    <Position X="23" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\Protein.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Reservation">
+    <Position X="45.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAEAAEBAQARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Orders\Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Restaurant">
+    <Position X="52.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAEAAABAEAAgAABAAAAIgAAAAACAAAAAAAQ=</HashCode>
+      <FileName>Models\Restaurant\Restaurant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Roll">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAQAAAAIAEAAAAABAAACAAAAAAAAAAACAAQAA=</HashCode>
+      <FileName>Models\Dishes\Roll.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.RollBase">
+    <Position X="34.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\RollBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.RollCover">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\RollCover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.RollFilling">
+    <Position X="25.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\RollFilling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.RollPreSet">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\RollPreSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Sause">
+    <Position X="29.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\Sause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Session">
+    <Position X="56.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAIAAAAAAAAAAAAAAAAABAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>Models\Restaurant\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Soup">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAIAEAAAAABAAACAABBAAAAAAAAAAQAA=</HashCode>
+      <FileName>Models\Dishes\Soup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.SoupBase">
+    <Position X="18.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\SoupBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.SoupPreSet">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\SoupPreSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Table">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Restaurant\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Topping">
+    <Position X="32" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\Topping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Visitor">
+    <Position X="47.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAABAAAQAAAAIAAAAAAAAMAAAAAA=</HashCode>
+      <FileName>Models\Restaurant\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Wok">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAQAAAAIAEAAAAABAAACAABBAAAAAAAAAAQAA=</HashCode>
+      <FileName>Models\Dishes\Wok.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.WokBase">
+    <Position X="20.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\WokBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.WokFiller">
+    <Position X="27.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ingredients\WokFiller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.WokPreSet">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\WokPreSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.IngredientEnum" BaseTypeListCollapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAIAAAAAAAAAAAoAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Ingredients\IngredientList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Models.IConstructable">
+    <Position X="59.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\IConstructable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.IPreSet">
+    <Position X="61" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dishes\IPreSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
